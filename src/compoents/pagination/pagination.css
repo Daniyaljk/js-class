@@ -1,0 +1,40 @@
+.pagination-container{
+    background-color: #ffffff;
+    display: flex;
+    gap: 10px;
+    width: max-content;
+    padding: 5px 10px;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.active-pagination{
+    background-color: #3399FF;
+    color : #ffffff!important;
+}
+
+.pagi-item{
+    width: 30px;
+    color: #A8A8A8;
+    font-size: 16px;
+    font-weight: 500;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    cursor: pointer;
+    border : 0;
+}
+
+.icon-pagination {
+    width: 20px;
+}
+
+button:disabled{
+    cursor: not-allowed;
+}
+
+.icon-more {
+    cursor : default;
+}
